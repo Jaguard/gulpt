@@ -5,7 +5,7 @@
 ## Project status
 - NPM version: [![NPM version](https://badge.fury.io/js/gulpt.svg)](https://www.npmjs.org/package/gulpt)
 - NPM downloads: [![NPM downloads](http://img.shields.io/npm/dm/gulpt.svg)](https://www.npmjs.org/package/gulpt)
-- GitHub release: [![GitHub Release](http://img.shields.io/github/release/jaguard/gulpt.svg)](https://www.npmjs.org/package/gulpt)
+- GitHub release: [![GitHub Release](http://img.shields.io/github/release/jaguard/gulpt.svg)](https://github.com/jaguard/gulpt)
 - Dependencies: [![Dependencies status](https://david-dm.org/jaguard/gulpt/status.svg?theme=shields.io)](https://david-dm.org/jaguard/time-require#info=dependencies)
 
 ## Install
@@ -21,6 +21,7 @@ Now that `gulpt` is available on PATH, invoke it as you're using `gulp`. Additio
 ```
 gulpt build --sorted
 ```
+
 1. Default usage (non-verbose) showing required modules in loaded order, above 1% treshold
 ```
 gulpt -T
@@ -39,6 +40,8 @@ gulpt -T --verbose --sorted
 
 ## Changelog
 
+- v0.1.2 (2014.04.25)
+	+ Fix https://github.com/jaguard/gulpt/issues/1
 - v0.1.1 (2014.04.25)
 	+ Add screenshoots
 - v0.1.0 (2014.04.20)

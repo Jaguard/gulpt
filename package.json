@@ -1,6 +1,6 @@
 {
 	"name": "gulpt",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "gulp CLI wrapper that use 'time-require' to measure & report all the require() calls from your gulpfile.js",
 	"keywords": ["gulp", "wrapper", "time-require", "require", "measure", "time", "profile"],
 	"homepage": "https://github.com/jaguard/gulpt",
