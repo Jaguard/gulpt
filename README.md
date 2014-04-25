@@ -21,6 +21,17 @@ Now that `gulpt` is available on PATH, invoke it as you're using `gulp`. Additio
 ```
 gulpt build --sorted
 ```
+1. Default usage (non-verbose) showing required modules in loaded order, above 1% treshold
+```
+gulpt -T
+```
+![default](doc/gulpt_default.png)
+
+2. Verbose (all) & sorted usage showing all required modules in sorted order
+```
+gulpt -T --verbose --sorted
+```
+![verbose-sorted](doc/gulpt_verbose_sorted.png)
 
 ## License
 
@@ -28,6 +39,8 @@ gulpt build --sorted
 
 ## Changelog
 
+- v0.1.1 (2014.04.25)
+	+ Add screenshoots
 - v0.1.0 (2014.04.20)
 	+ Published `gulpt` module to [npm](https://www.npmjs.org/package/gulpt)
 	+ Initial release
